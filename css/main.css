@@ -12,7 +12,7 @@ a {
 
 /* BTN */
 .btn {
-  display: inline-flex;
+  display: flex;
   position: relative;
   height: 34px;
   color: #333;
@@ -208,6 +208,18 @@ header .sub-menu li a {
 
 header .sub-menu li a:hover {
   color: #4078c0;
+}
+
+#toggle-btn {
+  display: none;
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  top: 16px;
+  right: 20px;
+  background: url("../img/toggle-btn.svg");
+  text-indent: -9999px;
+  cursor: pointer;
 }
 
 /* VISUAL */
